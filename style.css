@@ -34,6 +34,7 @@ main {
     max-width: 18rem;
     border-radius: 1rem;
     font-family: 'Red Hat Display', sans-serif;
+    box-shadow: 0 1rem 1rem hsl(245, 54%, 82%);
 }
 
 .dancing-image {
