@@ -6,10 +6,8 @@
 body {
     box-sizing: border-box;
     background-color: hsl(225, 100%, 94%);
-    background-image: url(/images/pattern-background-mobile.svg);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: contain;
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: repeat-x;
 }
 
 main {
@@ -32,7 +30,7 @@ main {
     max-width: 18rem;
     border-radius: 1rem;
     font-family: 'Red Hat Display', sans-serif;
-    box-shadow: 0 1rem 1rem hsl(245, 54%, 82%);
+    box-shadow: 0 1.5rem 2rem hsl(244, 57%, 85%);
 }
 
 .dancing-image {
@@ -122,10 +120,6 @@ button:hover {
 
 @media (min-width: 1440px) {
 
-    body {
-        background-image: url(/images/pattern-background-desktop.svg);
-    }
-
     .content {
         width: 60%;
         max-width:1440px;
@@ -137,11 +131,11 @@ button:hover {
         font-size: 1.5rem;
     }
 
-    .price {
+    .current-plan {
         padding: .5rem;
         margin: 1rem 2rem;
     }
-    .plan {
+    .pricing {
         font-size: .9rem;
     }
 
